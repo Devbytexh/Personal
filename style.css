@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    color: #40514e;
+    text-align: center;
+}
+.name{
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+.top-container{
+   position: relative;
+   padding-top: 100px;
+}
+
+.cloud-img{
+    position: absolute;
+    right: 650px;
+    top: 50px;
+}
+.cloud-imgB{
+    position: absolute;
+    left: 650px;
+    bottom: 300px;
+
+}
+.second{
+    color: #66BFBF;
+    font-weight: normal;
+}
+h2{
+    color: #11999E;
+    padding-bottom: 15px;
+}
+hr{
+    border:  dotted grey 6px;
+    width: 6%;
+    border-bottom: none;
+    margin: 100px auto 100px auto;
+}
+p{
+    line-height: 2;
+}
+.profile img{
+    width: 15%;
+}
+.profile p{
+    width: 20%;
+    margin: auto;
+}
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 80px 0 30px;
+
+}
+a{
+    color: #11999E;
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+a:hover{
+    color: white;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.computer-img{
+    width: 25%;
+    float: left;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.hobbies-img{
+    width: 25%;
+    float: right;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 30px;
+    background-color: #11999E;
+}
+.contact-me h3{
+    color: #11999E;
+}
+.contact-me p{
+    font-weight: bold;
+    width: 50%;
+    margin: 50px auto;
+}
+.btn{
+    
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #66BFBF;
+    color: white;
+}
+.btn:hover{
+    background-color: #11999E;
+    animation: .5s ease-in;
+}
